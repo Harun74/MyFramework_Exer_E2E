@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="FirefoxTesting(failed)">
+    <parameter name="Browsers" value="Firefox"/>
+    <classes>
+      <class name="com.testNGChallanges.CrossBrowserTesting">
+        <methods>
+          <include name="getLogin"/>
+          <include name="getCloserowser"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.testNGChallanges.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- FirefoxTesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->
